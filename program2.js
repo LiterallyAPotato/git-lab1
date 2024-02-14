@@ -2,7 +2,6 @@
 words which have duplicates. A word is indicated by a 
 sequence of characters separated by whitespace. Comparisons are done insensitive to 
 case, but output maintains the case of the first word. 
-
 */
 
 
