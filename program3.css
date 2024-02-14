@@ -1,0 +1,47 @@
+/*Program 3 asks the user for a username, password, and favorite color in a form
+program3.html required*/
+
+body {
+    background-color: #8a8a8d ;
+    color: #ffffff;
+    margin: auto;
+  } 
+   html {
+    min-height: 100%;
+    display: grid;
+  }
+  
+.flex{
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+}
+
+.div {
+  flex: 50%;
+  height: 70vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.div form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+}
+
+.div input{
+  background-color: #346094;
+  color: #ffffff;
+  height: 66%;
+  width: 100%;
+  font-size: 7vw;
+}
+.div button{
+  padding: 0;
+  height: 33%;
+  width: 100%;
+  font-size: 5vw;
+}
