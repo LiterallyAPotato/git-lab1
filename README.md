@@ -1,6 +1,6 @@
 # Eric Li
 
-**<ins>Resources</ins>**
+**<ins>RESOURCES</ins>**
 
 https://stackoverflow.com/questions/5712133/change-root-of-a-branch-in-git
 
