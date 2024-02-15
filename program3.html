@@ -1,0 +1,49 @@
+<!-- Program 3 asks the user for a username, password, and favorite color in a form.
+program3.css required -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 3</title>
+    <link rel="stylesheet" href="program3.css">
+    
+</head>
+
+<body>
+    <body>
+
+
+        <div class="flex">
+        <div class="div">
+            <form action="" onsubmit="return false;">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <button id="colorButton">Favorite Color</button>
+            </form>
+        
+        
+        <script>
+            // JavaScript code to handle color cycling
+            let colorButton = document.getElementById('colorButton');
+            let colors = ['red', 'orange', 'yellow','green', 'blue', 'purple'];
+            let currentColorIndex = 0;
+            colorButton.style.backgroundColor = "#346094"
+            // Function to change the button color
+            function changeColor() {
+                colorButton.style.backgroundColor = colors[currentColorIndex];
+                currentColorIndex = (currentColorIndex + 1) % colors.length; // Cycle through colors
+            }
+        
+            // Add a click event listener to the button
+            colorButton.addEventListener('click', changeColor);
+        </script>
+    </div>
+
+
+
+
+</body>
+</html>
